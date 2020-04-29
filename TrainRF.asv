@@ -16,19 +16,11 @@ switch nargin
     otherwise
       error('not enough input')
 end
-M = size(Xtr,2);
+
 for i = 1:numTrees
 %bagging
-    Xsubtr = zeros(N,m);
-    ysubtr = zeros(N,1);
-    for j = 1:N
-        idx = ceil(rand()*numTrees);
-        idxm = randsample(M,m);
-        for im = idxm
-            Xsubtr(j,im) = Xtr(idx,im);
-        end
-        ysubtr(j) = ytr(idx);
-    end
+ra
+
 %training decision trees
-end
+
 end

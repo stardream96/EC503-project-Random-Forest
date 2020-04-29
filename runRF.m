@@ -5,8 +5,8 @@ clear
 close all
 %loading data
 load('a9a.mat')
-
-RFclassifier = TrainRF(Xtr, ytr, numTree);
+m = 100;
+RFclassifier = TrainRF(Xtr, ytr, m, numTree);
 
 acc = TestRF(Xte, yte, RFclassifier)
 
