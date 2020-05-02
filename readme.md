@@ -1,9 +1,9 @@
 #Random Forest algorithm
 
 ## Group member
-Linfeng Chen
-Bo Zhang
-Yi Zhang
+Linfeng Chen,
+Bo Zhang,
+Yi Zhang,
 Yunze Lian
 
 ## usage
